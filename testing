@@ -1,0 +1,401 @@
+
+    <footer class="main_footer_section">
+      <div class="footer_section">
+        <div class="container-fluid">
+          <div class="row px-3 py-3">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+              <div class="footer">
+                <img class="footer-image" src="../image/logo.png" alt="" />
+                <span class="footer-text">COURSE</span>
+                <p class="footer-paragraph">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa exercitationem ipsum recusandae perferendis, repudiandae
+                  inventore necessitatibus eos eius in. Maxime?
+                </p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+              <div class="row px-3 py-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 follows us">
+                  <h2 class="footer_heading">
+                    Follow Us On Our Social Media Handels
+                  </h2>
+                  <img
+                    class="footer-img img-fluid"
+                    src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/facebook.svg"
+                    alt=""
+                  />
+                  <img
+                    class="footer-img img-fluid"
+                    src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/facebook.svg"
+                    alt=""
+                  />
+                  <img
+                    class="footer-img img-fluid"
+                    src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/facebook.svg"
+                    alt=""
+                  />
+                  <img
+                    class="footer-img img-fluid"
+                    src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/facebook.svg"
+                    alt=""
+                  />
+                </div>
+
+                <!-- <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                  <h2 class="footer_heading">Contact Us</h2>
+                  <div class="location">
+                    <img
+                      class="img-fluid image-location"
+                      src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/location.svg"
+                      alt=""
+                      width="20px"
+                    />
+                    <p class="location_para">Alwar,Rajasthan</p>
+                  </div>
+
+                  <div class="inbox">
+                    <img
+                      class="img-fluid image-envelope"
+                      src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/envelope.svg"
+                      alt=""
+                    />
+                    <p class="inbox-para">support@gocourse.com</p>
+                  </div>
+                </div> -->
+
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                  <h5 class="footer_heading">Contact Us</h5>
+                  <ul class="list">
+                  <li><img class="img-fluid" src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/location.svg">Alwar, Rajasthan</li>
+                  <li><img class="img-fluid" src="https://pritam-1322.github.io/Collage-Website-Project-1-/assets/images/footer-images/envelope.svg">support@gocouse.com</li>
+                  </ul>
+              </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                  <h2 class="footer_heading">Subscribe to Our Newsletter</h2>
+                  <input
+                    class="footer-input"
+                    type="email"
+                    name="#"
+                    id="#"
+                    placeholder="Email"
+                  />
+                  <button class="footer-button mx-auto d-block">
+                    SUBSCRIBE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+______css________
+      * {
+        margin: 0;
+
+        padding: 0;
+
+        box-sizing: border-box;
+      }
+
+      @font-face {
+        font-family: college-font;
+
+        src: url(../font/collage-template-font.ttf);
+      }
+
+      body {
+        font-family: "college-font";
+
+        /* font-size: 12px; */
+
+        letter-spacing: 1.2px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .main_footer_section {
+        background-color: rgb(78, 76, 76);
+      }
+
+      /* .footer_section{
+
+background-color: rgb(78, 76, 76);
+
+} */
+
+      .footer-image {
+        margin-left: 40px;
+
+        width: 60px;
+      }
+
+      .footer-text {
+        font-size: 50px;
+
+        color: white;
+
+        vertical-align: middle;
+
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+      }
+
+      .footer-paragraph {
+        font-size: 20px;
+
+        color: white;
+
+        margin-left: 10px;
+
+        margin-bottom: 0;
+
+        /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+      }
+
+      .footer_heading {
+        color: white;
+
+        margin-top: 10px;
+      }
+
+      .followus {
+        width: 100%;
+      }
+
+      .footer-img {
+        width: 40px;
+        margin-top: 10px;
+      }
+
+      .location {
+        position: relative;
+      }
+
+      .location_para {
+        margin-left: 10px;
+        position: absolute;
+        left: 11px;
+        color: white;
+      }
+
+      .image-location {
+        position: absolute;
+        top: 0;
+      }
+
+      .inbox {
+        position: relative;
+        margin-top: 40px;
+      }
+
+      .inbox-para {
+        color: white;
+        position: absolute ;
+        left:11px;
+      }
+
+      .image-envelope {
+        width: 20px;
+
+        position: absolute;
+      }
+
+      .footer-last h3 {
+        color: white;
+
+        font-size: 29px;
+      }
+
+      .footer-input {
+        width: 100%;
+
+        height: 50px;
+
+        border-radius: 50px;
+
+        font-size: 24px;
+
+        padding-left: 15px;
+
+        margin-top: 10px;
+      }
+
+      .footer-button {
+        background-color: #ffc107;
+
+        width: 150px;
+
+        height: 50px;
+
+        border-radius: 50px;
+
+        font-weight: 700;
+
+        margin-top: 10px;
+      }
+
+      .line-tag {
+        border: 3px solid rgb(255, 193, 7);
+      }
+
+      .link-tag {
+        position: relative;
+      }
+
+      .link-termtag {
+        position: absolute;
+      }
+
+      .footer_divider {
+        border-top: 2px solid yellow;
+
+        /* padding-bottom: 5px; */
+      }
+
+      .footer_divider_inner_text {
+        /* text-align: center; */
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        color: white;
+
+        gap: 50px;
+
+        /* margin-left: 100px; */
+
+        margin-top: 10px;
+      }
+
+      .footer_divider_inner_text h2 {
+        font-size: 20px;
+      }
+
+      .last_footer_heading:hover {
+        color: #ffc107;
+
+        text-decoration: underline;
+
+        cursor: default;
+      }
+
+      .main-formating {
+        background-color: #c9c9c9;
+      }
+
+      .heading-tag {
+        text-align: center;
+      }
+
+      .formating-form {
+        font-weight: 700;
+
+        margin-left: 30px;
+      }
+
+      .formating-form .format-name {
+        padding-left: 10px;
+
+        width: 100%;
+
+        height: 50px;
+
+        border-radius: 10px;
+
+        border: 2px solid #ffc107;
+      }
+
+      .formating-form .text-area {
+        padding-left: 10px;
+
+        width: 100%;
+
+        height: 10rem;
+
+        border-radius: 10px;
+
+        border: 2px solid #ffc107;
+      }
+
+      .query {
+        background-color: #ffc107;
+
+        border-radius: 50px;
+
+        font-weight: 700;
+
+        font-size: 20px;
+
+        text-align: center;
+
+        padding-top: 10px;
+
+        padding: 15px;
+
+        margin-top: 20px;
+      }
+
+      .submitBtn {
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        height: 50px;
+      }
+
+      .image-formating {
+        position: relative;
+
+        width: 100%;
+
+        height: 100%;
+      }
+
+      .signup-image {
+        position: absolute;
+
+        width: 100%;
+
+        height: 100%;
+
+        left: 0;
+
+        right: 0;
+      }
+
+
+    .list{
+    text-decoration: none;
+    padding-left: 0%;
+}
+  .list li{
+    font-size: 13px;
+    display: block;
+    font-weight: 500;
+    color: white;
+}
+  .list li img{
+    height: 19px; 
+    margin: 5px;
+}
